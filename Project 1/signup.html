@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background-image: url(P1.jpg);
+            background-size: cover;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .x {
+            position: relative;
+            width: 400px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .p1 {
+            text-align: center;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 25px;
+            margin-top: 20px;
+        }
+
+        .z {
+            color: white;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        .t3,
+        .t1,
+        .t2 {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            background-color: rgba(255, 255, 255, 0.1);
+            color: #fff;
+        }
+
+        .b2 {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: #fff;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        .b2:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="signup1.php">
+    <div class="x">
+        <p class="p1">Register/Sign up</p>
+        <div class="z">
+            <label for="username">Username:</label>
+            <input type="text" id="username" class="t3" placeholder="Enter Username" name="t33">
+
+            <label for="mobile">Mobile No.:</label>
+            <input type="text" id="mobile" class="t3" placeholder="Your Mobile No." name="t44">
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" class="t1" placeholder="Your Email address" name="t11">
+
+            <label for="password">Set Password:</label>
+            <input type="password" id="password" class="t2" placeholder="Your Password" name="t22">
+        </div>
+        <br>
+        <input type="submit" value="Signup" class="b2">
+    </div>
+    </form>
+</body>
+
+</html>
